@@ -460,3 +460,21 @@ textarea.campo {
         grid-template-columns: 1fr;
     }
 }
+
+.card-exito {
+    background: rgba(235, 232, 228, 0.877);
+    border-radius: 12px;
+}
+
+.card-exito h5 {
+    font-weight: 600;
+    color: #5a3e2b;
+}
+
+.card-exito p {
+    color: #3e3e3e;
+}
+
+.card-exito strong {
+    color: #8b5e3c;
+}

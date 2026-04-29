@@ -13,7 +13,7 @@ class ContactoController extends Controller
     $email=$request->input('email');
     $mensaje=$request->input('mensaje');
 
-    return view('exito', [
+    return view('front/exito', [
         'nombre' => $nombre,
         'telefono' => $telefono, 
         'email' => $email, 
