@@ -1,5 +1,6 @@
-@extends('layout')
+@extends('front/layout')
 @section('contenido')
+
 
 
 @endsection

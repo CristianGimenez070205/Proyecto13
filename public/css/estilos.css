@@ -1,5 +1,5 @@
 body {
-    background-image: url(/img/background-def.png);
+    background-image: url(/img/recursos/background-def.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: center;
 }
+
 .card-title {
     text-align: center;
 }
@@ -21,6 +22,11 @@ body {
     backdrop-filter: blur(20px);
     border-radius: 0 0 20px 20px;
     z-index: 1000;
+}
+
+.navbar-logo {
+  height: 50px;
+  width: auto;
 }
 
 .nav-link {
@@ -112,24 +118,213 @@ footer p {
     font-size: 1rem;
 }
 
-.redes a {
-    text-decoration: none;
-    color: inherit;
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
 }
 
-.redes i {
-    font-size: 2.1rem;
+.social-icons img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  transition: all 0.3s ease;
+  filter: grayscale(20%);
 }
 
-.redes .bi-instagram {
-    color: #e1306c;
+/* Hover elegante */
+.social-icons img:hover {
+  transform: translateY(-3px) scale(1.1);
+  filter: grayscale(0%);
 }
 
-.redes .bi-whatsapp {
-    color: #25d366;
+.card-quienes-somos {
+  background: rgba(255, 182, 193, 0.733) !important;
 }
 
-.redes i:hover {
-    transform: scale(1.2);
-    transition: 0.2s;
+.card-mision {
+  background: rgba(173, 216, 230, 0.747) !important;
+}
+
+.card-vision {
+  background: rgba(144, 238, 144, 0.664) !important;
+}
+
+.card-equipo img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-equipo {
+     background: rgba(159, 242, 243, 0.664) !important;
+}
+
+.card-entrega { 
+    background: rgba(255, 224, 178, 0.85) !important; 
+} 
+.card-envio { 
+    background: rgba(221, 160, 221, 0.85) !important; 
+} 
+
+.card-pagos {
+    background: rgba(180, 210, 255, 0.85) !important;
+}
+
+.card-tiempos {
+     background: rgba(226, 223, 144, 0.85) !important;
+}
+
+.card-devoluciones {
+     background: rgba(102, 205, 170, 0.85) !important;
+}
+
+.card-atencion {
+   background: rgba(255, 214, 165, 0.85) !important;
+}
+
+.terminos-box {
+  max-width: 800px;
+  background: rgba(235, 232, 228, 0.877);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.terminos-box h1 {
+  font-weight: 600;
+}
+
+.terminos-box h4 {
+  margin-top: 25px;
+  font-weight: 600;
+}
+
+.terminos-box p {
+  line-height: 1.7;
+  color: #444;
+}
+
+.registro-box {
+  max-width: 600px;
+  background: rgba(235, 232, 228, 0.877);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.registro-box input {
+  border-radius: 10px;
+}
+
+.registro-box button {
+  padding: 10px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.registro-box button:hover {
+  transform: translateY(-2px);
+}
+
+.intro-text {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.2rem;
+  color: #555;
+}
+.section-title {
+  font-weight: 600;
+  color: #333;
+}
+
+.content-wrapper {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 224, 178, 0.85),
+    rgba(236, 117, 127, 0.96)
+  );
+  border-radius: 20px;
+  margin: 50px auto;
+  max-width: 1100px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+  padding: 40px 20px;
+}
+
+.custom-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(6px);
+  border-radius: 15px;
+  padding: 25px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+.custom-card h5 {
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.custom-card p {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.content-wrapper {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 224, 178, 0.85),
+    rgba(236, 117, 127, 0.96)
+  );
+  border-radius: 20px;
+  margin: 50px auto;
+  max-width: 1100px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+  padding: 40px 20px;
+}
+
+.intro-text {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.2rem;
+  color: #010101;
+}
+
+.section-title {
+  font-weight: 600;
+  color: #333;
+}
+
+.highlight-title {
+  font-weight: 600;
+  color: #222;
+}
+
+.principal-card {
+  background: rgba(231, 191, 158, 0.865);
+  backdrop-filter: blur(6px);
+  border-radius: 15px;
+  padding: 25px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+.principal-card h5 {
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.principal-card p {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.principal-card:hover {
+  transform: translateY(-5px);
+  background: rgba(238, 185, 135, 0.9);
+}
+
+.highlight-text {
+  font-size: 1rem;
 }

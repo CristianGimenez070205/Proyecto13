@@ -2,7 +2,7 @@
   <div class="container-fluid">
 
     <a class="navbar-brand fw-bold d-flex align-items-center" href="{{ url('/') }}">
-      <img src="{{ asset('img/logo.png') }}" alt="Logo" width="150" class="me-2">
+      <img src="{{ asset('img/recursos/logo.png') }}" class="navbar-logo me-2">
 
     </a>
 
@@ -17,21 +17,26 @@
           <a class="nav-link active" href="{{ url('/') }}">Principal</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="{{ url('catalogo') }}">Catálogo</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="{{ url('quienes-somos') }}">Quiénes somos</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ url('comercializacion') }}">Comercialización</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="{{ url('contacto') }}">Contacto</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="{{ url('terminos-y-uso') }}">Términos y usos</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
-            Cuenta
-          </a>
+            Cuenta</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="{{ url('Registrarse') }}">Registrarse</a></li>
-            <li><a class="dropdown-item" href="{{ url('Ingresar') }}">Iniciar Sesión</a></li>
+            <li><a class="dropdown-item" href="{{ url('registrarse') }}">Registrarse</a></li>
+            <li><a class="dropdown-item" href="{{ url('ingresar') }}">Iniciar Sesión</a></li>
           </ul>
         </li>
       </ul>
