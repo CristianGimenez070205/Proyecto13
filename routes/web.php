@@ -33,3 +33,9 @@ Route::get('/registrarse', function () {
 Route::get('/ingresar', function () {
     return view('front.ingresar');
 });
+
+Route::get('/catalogo2', function () {
+    return view('front.catalogo2');
+});
+
+Route::post('/contacto', [ContactoController::class, 'procesar']);

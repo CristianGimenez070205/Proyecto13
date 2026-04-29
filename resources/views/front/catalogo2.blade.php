@@ -1,10 +1,9 @@
 @extends('front/layout')
+
 @section('contenido')
+
 <div class="container">
 <div class="row">
-  
-   <div class="container col-xs-12">
-   </div>
     <div class="px-3 px-md-5 my-5">
     <h2 class="text-center mb-4">Galería de Cuadros</h2>
 
@@ -12,9 +11,9 @@
 
       <div class="col-md-4">
         <div class="card shadow-sm h-100">
-          <img src="img/catalogo/cuadro1.jpg" class="card-img-top" alt="Cuadro">
+          <img src="img/catalogo/munich.jpg" class="card-img-top" alt="Cuadro">
           <div class="card-body text-center">
-            <h5 class="card-title">L'Atelier</h5>
+            <h5 class="card-title">Munich</h5>
             <p class="card-text">$120.000</p>
             <button class="btn btn-dark rounded-pill">Comprar</button>
           </div>
@@ -23,9 +22,9 @@
 
       <div class="col-md-4">
         <div class="card shadow-sm h-100">
-          <img src="img/catalogo/cuadro2.jpg" class="card-img-top">
+          <img src="img/catalogo/nocheestrellada.jpg" class="card-img-top">
           <div class="card-body text-center">
-            <h5 class="card-title">Introspección</h5>
+            <h5 class="card-title">Noche estrellada</h5>
             <p class="card-text">$150.000</p>
             <button class="btn btn-dark rounded-pill">Comprar</button>
           </div>
@@ -34,10 +33,10 @@
 
       <div class="col-md-4">
         <div class="card shadow-sm h-100">
-          <img src="img/catalogo/cuadro3.jpg" class="card-img-top">
+          <img src="img/catalogo/licenciado.jpg" class="card-img-top">
           <div class="card-body text-center">
-            <h5 class="card-title">El caminante sobre el mar de nubes</h5>
-            <p class="card-text">$180.000</p>
+            <h5 class="card-title">Retrato de joven</h5>
+            <p class="card-text">$120.000</p>
             <button class="btn btn-dark rounded-pill">Comprar</button>
           </div>
         </div>
@@ -45,51 +44,40 @@
 
       <div class="col-md-4">
         <div class="card shadow-sm h-100">
-          <img src="img/catalogo/cuadro4.jpg" class="card-img-top">
+          <img src="img/catalogo/paisaje.jpg" class="card-img-top">
           <div class="card-body text-center">
-            <h5 class="card-title">Rainy day</h5>
-            <p class="card-text">$190.000</p>
+            <h5 class="card-title">El borde del mundo</h5>
+            <p class="card-text">$160.000</p>
             <button class="btn btn-dark rounded-pill">Comprar</button>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card shadow-sm h-100">
-          <img src="img/catalogo/earings.jpg" class="card-img-top">
+          <img src="img/catalogo/paisaje2.jpg" class="card-img-top">
           <div class="card-body text-center">
-            <h5 class="card-title">La chica con aros de perla</h5>
-            <p class="card-text">$110.000</p>
+            <h5 class="card-title">Refugio distante</h5>
+            <p class="card-text">$100.000</p>
             <button class="btn btn-dark rounded-pill">Comprar</button>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card shadow-sm h-100">
-          <img src="img/catalogo/barroco.jpg" class="card-img-top">
+          <img src="img/catalogo/reversion.jpg" class="card-img-top">
           <div class="card-body text-center">
-            <h5 class="card-title">Autorretrato con la muerte</h5>
-            <p class="card-text">$140.000</p>
+            <h5 class="card-title">Reversion estrellada</h5>
+            <p class="card-text">$300.000</p>
             <button class="btn btn-dark rounded-pill">Comprar</button>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card shadow-sm h-100">
-          <img src="img/catalogo/elbeso.jpg" class="card-img-top">
+          <img src="img/catalogo/shark.jpg" class="card-img-top">
           <div class="card-body text-center">
-            <h5 class="card-title">The kiss</h5>
-            <p class="card-text">$150.000</p>
-            <button class="btn btn-dark rounded-pill">Comprar</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card shadow-sm h-100">
-          <img src="img/catalogo/elgrito.jpg" class="card-img-top">
-          <div class="card-body text-center">
-            <h5 class="card-title">El grito</h5>
-            <p class="card-text">$195.000</p>
+            <h5 class="card-title">Pool shark</h5>
+            <p class="card-text">$60.000</p>
             <button class="btn btn-dark rounded-pill">Comprar</button>
           </div>
         </div>
@@ -97,10 +85,21 @@
 
       <div class="col-md-4">
         <div class="card shadow-sm h-100">
-          <img src="img/catalogo/granola.jpg" class="card-img-top">
+          <img src="img/catalogo/taza.jpg" class="card-img-top">
           <div class="card-body text-center">
-            <h5 class="card-title">The great wave</h5>
-            <p class="card-text">$125.000</p>
+            <h5 class="card-title">Delicada pausa</h5>
+            <p class="card-text">$90.000</p>
+            <button class="btn btn-dark rounded-pill">Comprar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="img/catalogo/vangogh.jpg" class="card-img-top">
+          <div class="card-body text-center">
+            <h5 class="card-title">Autorretrato de vangogh</h5>
+            <p class="card-text">$1200.000</p>
             <button class="btn btn-dark rounded-pill">Comprar</button>
           </div>
         </div>
@@ -111,9 +110,10 @@
 </div>
 
 <ul class="paginacion">
-    <li><a href="#" class="active">1</a></li>
-    <li><a href="{{ url('catalogo2') }}" >2</a></li>
+    <li><a href="{{ url('catalogo') }}" >1</a></li>
+    <li><a href="{{ url('catalogo2') }}"  class="active" >2</a></li>
     <li><a href="#" >3</a></li>
+    <li><a href="#" >4</a></li>
     <li><a href="#" >...</a></li>
     <li><a href="#" >10</a></li>
 
