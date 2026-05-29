@@ -27,11 +27,11 @@ Route::get('/terminos-y-uso', function () {
 });
 
 Route::get('/registrarse', function () {
-    return view('front.registrarse');
+    return view('backend.usuarios.registrarse');
 });
 
 Route::get('/ingresar', function () {
-    return view('front.ingresar');
+    return view('backend.usuarios.ingresar');
 });
 
 Route::get('/catalogo2', function () {
