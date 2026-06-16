@@ -2,18 +2,17 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Rol;
+use App\Models\Producto;
 use Illuminate\Http\Request;
 
-class RolController extends Controller
+class ProductoController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        $roles = Rol::all();
-        return view('roles.index', compact('roles'));
+        //
     }
 
     /**
@@ -29,19 +28,13 @@ class RolController extends Controller
      */
     public function store(Request $request)
     {
-       $request->validate([
-        'nombre' => 'required|string|max:50|unique:roles',
-        'descripcion' => 'nullable|string|max:255',
-
-        ]);
-        Rol::create($request->only(['nombre', 'descripcion']));
-        return redirect()->route('roles.index')->with('exito', 'Rol creado.');
+        //
     }
 
     /**
      * Display the specified resource.
      */
-    public function show(Rol $rol)
+    public function show(Producto $producto)
     {
         //
     }
@@ -49,7 +42,7 @@ class RolController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Rol $rol)
+    public function edit(Producto $producto)
     {
         //
     }
@@ -57,7 +50,7 @@ class RolController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Rol $rol)
+    public function update(Request $request, Producto $producto)
     {
         //
     }
@@ -65,9 +58,8 @@ class RolController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Rol $rol)
+    public function destroy(Producto $producto)
     {
-        $rol->delete();
-        return redirect()->route('roles.index')->with('exito', 'Rol eliminado.');
+        //
     }
 }

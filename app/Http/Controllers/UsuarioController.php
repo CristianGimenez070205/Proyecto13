@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Usuario;
 use Illuminate\Http\Request;
-
+use App\Models\Rol;
 class UsuarioController extends Controller
 {
     /**
@@ -32,7 +32,7 @@ class UsuarioController extends Controller
     {
         $request->validate([
             'nombre' => 'required|string|max:100',
-            'email' => 'required|email|unique:usuarios'
+            'email' => 'required|email|unique:usuarios',
             'password' => 'required|min:8|confirmed',
             'rol_id' => 'required|exists:roles,id',
         ]);
