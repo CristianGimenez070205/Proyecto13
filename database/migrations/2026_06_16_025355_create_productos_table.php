@@ -14,8 +14,11 @@ return new class extends Migration {
             $table->id();
             $table->string('nombre');
             $table->text('descripcion')->nullable();
+            $table->string('artista');
             $table->decimal('precio', 8, 2); // hasta 999999.99
             $table->unsignedInteger('stock')->default(0);
+            $table->decimal('ancho')->default(0);
+            $table->decimal('alto')->default(0);
             $table->timestamps();
             $table->softDeletes();
         });
